@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Search Test]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="Search in IE(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.selenium.search">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testSearch"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.search -->
+    </classes>
+  </test> <!-- Search in IE(failed) -->
+</suite> <!-- Failed suite [Search Test] -->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Search Test" duration-ms="75696" started-at="2014-11-14T21:12:23Z" finished-at="2014-11-14T21:13:38Z">
+    <groups>
+    </groups>
+    <test name="Search in chrome" duration-ms="50671" started-at="2014-11-14T21:12:23Z" finished-at="2014-11-14T21:13:13Z">
+      <class name="com.selenium.search">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.selenium.search@66048bfd]" name="launchBrowser" is-config="true" duration-ms="5427" started-at="2014-11-15T02:42:23Z" finished-at="2014-11-15T02:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.selenium.search@66048bfd]" name="testSearch" duration-ms="40933" started-at="2014-11-15T02:42:28Z" finished-at="2014-11-15T02:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.search@66048bfd]" name="closeBrowser" is-config="true" duration-ms="4296" started-at="2014-11-15T02:43:09Z" finished-at="2014-11-15T02:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.search -->
+    </test> <!-- Search in chrome -->
+    <test name="Search in IE" duration-ms="71643" started-at="2014-11-14T21:12:23Z" finished-at="2014-11-14T21:13:34Z">
+      <class name="com.selenium.search">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.selenium.search@2471cca7]" name="launchBrowser" is-config="true" duration-ms="5459" started-at="2014-11-15T02:42:23Z" finished-at="2014-11-15T02:42:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.selenium.search@2471cca7]" name="testSearch" duration-ms="64999" started-at="2014-11-15T02:42:28Z" finished-at="2014-11-15T02:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.search@2471cca7]" name="closeBrowser" is-config="true" duration-ms="1170" started-at="2014-11-15T02:43:33Z" finished-at="2014-11-15T02:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.search -->
+    </test> <!-- Search in IE -->
+    <test name="Search in firefox" duration-ms="75696" started-at="2014-11-14T21:12:23Z" finished-at="2014-11-14T21:13:38Z">
+      <class name="com.selenium.search">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.selenium.search@33a10788]" name="launchBrowser" is-config="true" duration-ms="19076" started-at="2014-11-15T02:42:23Z" finished-at="2014-11-15T02:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testSearch()[pri:0, instance:com.selenium.search@33a10788]" name="testSearch" duration-ms="38753" started-at="2014-11-15T02:42:42Z" finished-at="2014-11-15T02:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.search@33a10788]" name="closeBrowser" is-config="true" duration-ms="17848" started-at="2014-11-15T02:43:21Z" finished-at="2014-11-15T02:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.search -->
+    </test> <!-- Search in firefox -->
+  </suite> <!-- Search Test -->
+</testng-results>
