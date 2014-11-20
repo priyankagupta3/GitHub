@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<suite name="Search Test" verbose="3" parallel="tests">
+<suite name="Page Test" verbose="3" parallel="tests">
      <test name="Search in IE">
          <parameter name="browser" value="IE"></parameter>
          <classes>
-             <class name="com.selenium.search" />
+             <class name="com.selenium.testWebPage" />
          </classes>
      </test>    
    <test name="Search in chrome">
          <parameter name="browser" value="chrome"></parameter>
          <classes>
-             <class name="com.selenium.search" />
+             <class name="com.selenium.testWebPage" />
          </classes>
      </test> 
          <test name="Search in firefox">
          <parameter name="browser" value="firefox"></parameter>
          <classes>
-             <class name="com.selenium.search" />
+             <class name="com.selenium.testWebPage" />
          </classes>
      </test> 
 </suite>

@@ -8,9 +8,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+
+
 public class SelTestCase {
 
 	WebDriver driver;
+	
 	//comment
 	@BeforeMethod
 	@Parameters("browser")
@@ -22,6 +25,7 @@ public class SelTestCase {
 			System.setProperty("webdriver.ie.driver","C:\\iedriver\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		} else {
+
 			driver = new FirefoxDriver();
 		}
 
